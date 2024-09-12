@@ -93,7 +93,7 @@
                      <div class="collapse">
                          <ul class="sub-menu" id="categorys" data-parent="#sidebar-menu">
                              <li class="">
-                                 <a class="sidenav-item-link" href="main-category.html">
+                                 <a class="sidenav-item-link" href="{{ route('category.index') }}">
                                      <span class="nav-text">All Category</span>
                                  </a>
                              </li>
@@ -121,7 +121,7 @@
                                  </a>
                              </li>
                              <li class="">
-                                 <a class="sidenav-item-link" href="product-list.html">
+                                 <a class="sidenav-item-link" href="">
                                      <span class="nav-text">List Product</span>
                                  </a>
                              </li>
